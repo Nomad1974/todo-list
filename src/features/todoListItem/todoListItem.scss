@@ -1,0 +1,33 @@
+.todo-list {
+    &-item{
+        font-size: 1.25rem;
+        cursor: pointer;
+        button {
+            width: 43px;
+            margin: 0 3px;
+        }   
+    }
+    &-label {
+        margin-left: 1.25rem;
+        line-height: 35px;
+        user-select: none;
+        cursor: pointer;
+    }
+}
+
+.input {
+    border: 1px solid #ced4da;
+    margin-top: 1px;
+    //width: 226px;
+    ;
+}
+
+.todo-list-item.done .todo-list-item-label {
+    text-decoration: line-through;
+}
+
+.todo-list-item.important .todo-list-item-label {
+    font-weight: bold;
+    color: steelblue;
+}
+
